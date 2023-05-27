@@ -183,8 +183,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="linux娘"><a href="#linux娘" class="headerlink" title="linux娘"></a>linux娘</h1><p><img src="/img/20230412/debian.jpg" alt="debian娘" title="debian娘"><br><img src="/img/20230412/arch.jpg" alt="arch娘" title="arch娘"><br><img src="/img/20230412/nix.jpg" alt="nixos娘" title="nixos娘"><br><img src="/img/20230412/gentoo.jpg" alt="gentoo娘" title="gentoo娘"><br><img src="/img/20230412/android.jpg" alt="android娘" title="android娘"></p>
+        linux娘
 
+        <br>
+        <a class="article-more-a" href="/2023/04/12/linux%E5%A8%98/">more >></a>
       
 
 
@@ -263,25 +265,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="/img/20230412/1.jpg" alt="效果图" title="效果图"></p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>一个github账户<br>一个静态网站仓库<br>(可选)一个域名</p>
-<h1 id="前言-废话"><a href="#前言-废话" class="headerlink" title="前言(废话)"></a>前言(<del>废话</del>)</h1><p>现在有越来越多的开发者选择把自己的博客以静态网站的方式托管在 GitHub 上, 这样的方式只需要一个域名就可以通过诸如 Jekyll, Hexo, 纸小墨 等等现有的静态博客生成工具, 非常便捷地搭建出一个样式美观的静态博客.</p>
-<p>Github Pages免费且稳定的服务让我可以专注内容，而无需考虑成本及维护的问题，非常方便广受好评，但其最大的一个问题就是国内访问速度很慢，如何简单快速又低成本的解决这个问题呢？这里介绍一个服务：Netlify</p>
-<h1 id="什么是netlify"><a href="#什么是netlify" class="headerlink" title="什么是netlify"></a>什么是netlify</h1><p>Netlify 是一个提供静态资源网络托管的综合平台，提供CI服务，能够将托管 GitHub，GitLab 等网站上的 Jekyll，Hexo，Hugo 等代码自动编译并生成静态网站。</p>
-<p>Netlify 有如下的功能:</p>
-<ul>
-<li>能够托管服务，免费 CDN </li>
-<li>能够绑定自定义域名</li>
-<li>能够启用免费的TLS证书，启用HTTPS</li>
-<li>支持自动构建</li>
-<li>提供 Webhooks 和 API</li>
-</ul>
-<h1 id="登录netlify"><a href="#登录netlify" class="headerlink" title="登录netlify"></a>登录netlify</h1><p>打开netlity.com，点击<code>Get stared for free</code>按钮<br><img src="/img/20230412/2.jpg" alt="主页" title="主页"><br>点击 <code>Sign in with Github</code>按钮<br><img src="/img/20230412/3.jpg" alt="登录" title="登录"><br>然后同意授权<br><img src="/img/20230412/4.jpg" alt="授权" title="授权"><br><img src="/img/20230412/5.jpg" alt="同意授权" title="同意授权"><br>如果之前没有登录过github,会出现以下页面<br><img src="/img/20230412/6.jpg" alt="登录到github" title="登录到github"><br>登录即可</p>
-<h1 id="使用netlify"><a href="#使用netlify" class="headerlink" title="使用netlify"></a>使用netlify</h1><p>进入空间管理中心，，点击<code>New site from git</code>按钮开始部署你的博客<br>然后根据自己的托管平台，可以选择GitHub、GitLab或者BitBucket（这里以 GitHub 为例）<br>点击GitHub之后会弹出一个让你授权的窗口，给 Netlify 授权后，就会自动读取你 GitHub 的仓库<br>选择仓库后，Netlify 会自动识别到 hexo，并填入相关信息，这时候只要无脑点击 <code>Deploy site</code>就可以了<br>稍等一段时间就可以看到你的博客已经部署成功，并且给你分配了一个二级域名。</p>
-<h1 id="可选-绑定域名"><a href="#可选-绑定域名" class="headerlink" title="(可选)绑定域名"></a>(可选)绑定域名</h1><p>如果之前域名绑定了github,请在dns解析页面删除所有的github page解析</p>
-<p>登录netlify，找到之前创建的网站<br><img src="/img/20230412/7.jpg" alt="网站" title="网站"><br>点击<code>Site settings</code><br>点击<code>General</code>下的<code>Domain management</code><br>点击<code>Add domain alias</code>按钮添加域名<br>添加域名后，进入域名面板，点击<code>DNS解析</code>页面<br>根据提示添加netlify页面重定向<br><img src="/img/20230412/8.jpg" alt="DNS解析" title="DNS解析"><br>添加成功后，回到netlify，会发现添加后的域名会变成绿色<br><img src="/img/20230412/9.jpg" alt="完成后的效果" title="完成后的效果"></p>
-<p>最后为自定义域名开启HTTPS支持，Domain management -&gt; HTTPS，点击<code>Verify DNS configuration</code>，域名验证通过则会自动申请证书<br>至此Netlify与Github绑定完成，可以通过自定义域名访问网站了，之后你每一次提交代码到Github，便会自动发布至Netlify，无需额外操作，非常方便</p>
-
+        效果图
+准备工作一个github账户一个静态网站仓库(可选)一个域名
+前言(废话)现在有越来越多的开发者选择把自己的博客以静态网站的方式托管在 GitHub 上, 这样的方式只需要一个域名就可以通过诸如 Jekyll, Hexo, 纸小墨 
+        <br>
+        <a class="article-more-a" href="/2023/04/12/%E4%BD%BF%E7%94%A8netlify%E5%8A%A0%E5%BF%AB%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6/">more >></a>
       
 
 
@@ -364,20 +352,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>作为一个写代码的人来说，保存和备份是非常重要的，所以随手保存和存有备份已经成为我的习惯了。使用Hexo在github搭建的博客，仓库里只有生成的静态网页文件，是没有Hexo的源文件的，所以如何备份就成为了一个重要的问题，这篇文章便应运而生了</p>
-<h1 id="方法1"><a href="#方法1" class="headerlink" title="方法1"></a>方法1</h1><p>找到你的博客目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tar -cvf blogbackup.tar.gz blogbackup</span><br></pre></td></tr></table></figure>
-<p>这里的blogbackup为你的博客源码文件夹名称<br>然后将备份完之后的压缩包上传到网盘</p>
-<h1 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h1><p>cd到博客源码文件夹，首先执行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
-<p>清理生成完毕的网页</p>
-<p>接下来在github新建一个仓库，假设这里的仓库地址为<code>https://github.com/xxx/blogbackup</code></p>
-<p>然后执行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/xxx/blogbackup</span><br></pre></td></tr></table></figure>
-<p>会提示</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">正克隆到 &#x27;blogbackup&#x27;...</span><br><span class="line">警告：您似乎克隆了一个空仓库。</span><br></pre></td></tr></table></figure>
-<p>将文件放入此目录然后提交即可</p>
-
+        前言作为一个写代码的人来说，保存和备份是非常重要的，所以随手保存和存有备份已经成为我的习惯了。使用Hexo在github搭建的博客，仓库里只有生成的静态网页文件，是没有Hexo的源文件的，所以如何备份就成为了一个重要的问题，这篇文章便应运而
+        <br>
+        <a class="article-more-a" href="/2023/04/11/hexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E5%A4%87%E4%BB%BD/">more >></a>
       
 
 
@@ -396,11 +373,11 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">github</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">web前端</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">web前端</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">github</a>
         		</li>
       		
 		</ul>
@@ -460,15 +437,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="为什么要创建这个博客"><a href="#为什么要创建这个博客" class="headerlink" title="为什么要创建这个博客"></a>为什么要创建这个博客</h1><p>原因:之前的源码被我手贱删除力</p>
-<h1 id="todo"><a href="#todo" class="headerlink" title="todo"></a>todo</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> 创建博客</li>
-<li><input checked="" disabled="" type="checkbox"> 上传第一篇文章</li>
-<li><input checked="" disabled="" type="checkbox"> 迁移软件仓库</li>
-<li><input disabled="" type="checkbox"> 主题完善</li>
-<li><input checked="" disabled="" type="checkbox"> 页面重定向<br>先这样</li>
-</ul>
+        为什么要创建这个博客原因:之前的源码被我手贱删除力
+todo
+ 创建博客
+ 上传第一篇文章
+ 迁移软件仓库
+ 主题完善
+ 页面重定向先这样
 
+
+        <br>
+        <a class="article-more-a" href="/2023/04/10/%E6%96%B0%E5%8D%9A%E5%AE%A2/">more >></a>
       
 
 
@@ -547,20 +526,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+        <br>
+        <a class="article-more-a" href="/1970/01/01/hello-world/">more >></a>
       
 
 
@@ -706,31 +674,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">PostmarketOS</a>
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">ROM移植</a>
+                <a href="javascript:void(0)" class="js-tag color1">web前端</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">dtb</a>
+                <a href="javascript:void(0)" class="js-tag color2">github</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">android</a>
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">归档</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">番剧</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">别当欧尼酱了</a>
+                <a href="javascript:void(0)" class="js-tag color5">刷机工具</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -738,15 +698,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">二次元</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">网页搭建</a>
+                <a href="javascript:void(0)" class="js-tag color5">网页加速</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -766,11 +718,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">vps</a>
+                <a href="javascript:void(0)" class="js-tag color5">网页搭建</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color4">vps</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -794,11 +746,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">github</a>
+                <a href="javascript:void(0)" class="js-tag color3">归档</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">网页加速</a>
+                <a href="javascript:void(0)" class="js-tag color3">番剧</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">别当欧尼酱了</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">android</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -814,11 +774,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">刷机工具</a>
+                <a href="javascript:void(0)" class="js-tag color4">dtb</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">web前端</a>
+                <a href="javascript:void(0)" class="js-tag color4">二次元</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">PostmarketOS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">ROM移植</a>
               </li>
             
             <div class="clearfix"></div>
