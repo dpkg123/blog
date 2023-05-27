@@ -42,6 +42,9 @@
 
 <!-- 雪花特效2 -->
 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/snow.js"></script>
+
 <!-- 《页面点击小红心 -->
 
 <!-- 页面点击小红心》 -->
@@ -187,13 +190,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        从机器导出dtc手机链接电脑，然后执行下列命令:(需要root)
-12$ adb shell su -c cp /sys/firmware/fdt /sdcard$ adb pull /sdcard/fdr ./
+        <h1 id="从机器导出dtc"><a href="#从机器导出dtc" class="headerlink" title="从机器导出dtc"></a>从机器导出dtc</h1><p>手机链接电脑，然后执行下列命令:(需要root)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ adb shell su -c <span class="built_in">cp</span> /sys/firmware/fdt /sdcard</span><br><span class="line">$ adb pull /sdcard/fdr ./</span><br></pre></td></tr></table></figure>
 
-fdt转dts执行
-1$
-        <br>
-        <a class="article-more-a" href="/2023/05/01/fdt%E8%BD%ACdtb/">more >></a>
+<h1 id="fdt转dts"><a href="#fdt转dts" class="headerlink" title="fdt转dts"></a>fdt转dts</h1><p>执行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ dtc -I dtb -O dts -o fdt.dts ./fdt</span><br></pre></td></tr></table></figure>
+
+<h1 id="dts转dtb"><a href="#dts转dtb" class="headerlink" title="dts转dtb"></a>dts转dtb</h1><p>执行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ dtc -I dts -O dtb -o fdt.dtb ./fdt.dts</span><br></pre></td></tr></table></figure>
+
       
 
 
@@ -521,6 +526,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">miui</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">coloros</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">手机</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
@@ -533,11 +550,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">刷机工具</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">二次元</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">网页加速</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -553,31 +582,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">网页加速</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">网页搭建</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color4">联发科</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">刷机工具</a>
+                <a href="javascript:void(0)" class="js-tag color4">KernelSU</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">vps</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">fastboot</a>
+                <a href="javascript:void(0)" class="js-tag color4">kvm</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">刷机</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">vps</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -597,27 +622,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">联发科</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">KernelSU</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">kvm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">miui</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">coloros</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">手机</a>
+                <a href="javascript:void(0)" class="js-tag color4">fastboot</a>
               </li>
             
             <div class="clearfix"></div>
