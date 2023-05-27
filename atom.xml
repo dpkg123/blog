@@ -140,9 +140,9 @@
     
     
     
-    <category term="dtb" scheme="https://dpkg123.github.io/tags/dtb/"/>
-    
     <category term="android" scheme="https://dpkg123.github.io/tags/android/"/>
+    
+    <category term="dtb" scheme="https://dpkg123.github.io/tags/dtb/"/>
     
   </entry>
   
